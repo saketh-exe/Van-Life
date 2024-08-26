@@ -1,0 +1,27 @@
+nav{
+  background-color: antiquewhite;
+  font-size: 24px;
+  a{
+      text-decoration: none;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      transition: all 300ms ease;
+  }
+  a:hover{
+      font-size: 30px;
+  }
+ #logo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+ }
+  padding: 14px;
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
+  div{
+
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+  }
+}
