@@ -6,23 +6,18 @@ function App() {
   
 
   return (
-    <>
-   
     <BrowserRouter>
-    <nav>
-        <Link to='/' id='logo'>#VANLIFE</Link>
-        <div>
-        <Link to='/About'>About</Link>
-        <Link to='/Vans'>Vans</Link>
-          </div>
-    </nav>
+    <header>
+      <Link className="site-logo" to="/">#VanLife</Link>
+      <nav>
+        <Link to="/about">About</Link>
+      </nav>
+    </header>
     <Routes>
-      <Route path= '/' element = {<Home/>}/>
-      <Route path= '/About' element = {<About/>}/>
-      <Route path= '/Vans' />
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
     </Routes>
-    </BrowserRouter>
-    </>
+  </BrowserRouter>
   )
 }
 
